@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.person__container {
+  display: flex;
+}
+
+.person__data {
+  width: 425px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.info__container {
+  margin-left: 15px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.person__name {
+  font-size: 18px;
+  color: #333;
+}
+
+.person__age {
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+}
+
+.icon {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+i {
+  pointer-events: none;
+}
+
+.icon:hover {
+  color: #a00;
+}
